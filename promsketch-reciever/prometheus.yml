@@ -1,0 +1,16 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'test'
+    static_configs:
+      - targets: ['localhost:9101'] 
+    metrics_path: '/metrics'
+
+remote_write:
+  - url: "http://localhost:8080/ingest"
+    queue_config:
+      max_samples_per_send: 1000
+      max_shards: 10
+      capacity: 2500 
