@@ -38,7 +38,7 @@ go run ddsketch.go main.go
 
 3. Start Prometheus collector:
 ```bash
-prometheus --config.file=promsketch-reciever/prometheus.yml
+prometheus --config.file=prometheus.yml
 ```
 
 ## Querying Endpoints
