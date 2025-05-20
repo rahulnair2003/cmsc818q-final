@@ -4,7 +4,7 @@
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/rahulnair2003/cmsc818q.git
+   git clone https://github.com/rahulnair2003/cmsc818q-final.git
    ```
 2. Install Go (version 1.18+ recommended).
 
