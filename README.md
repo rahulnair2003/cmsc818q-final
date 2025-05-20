@@ -7,8 +7,8 @@
    git clone https://github.com/rahulnair2003/cmsc818q.git
    ```
 2. Install Go (version 1.18+ recommended).
-   ```
-3. **Manually add required data files:**
+
+3. Manually add required data files:
    Download or copy the following files into the `promsketch/testdata/` directory:
      - `google-cluster-data-1.csv`
      - `household_power_consumption.txt`
