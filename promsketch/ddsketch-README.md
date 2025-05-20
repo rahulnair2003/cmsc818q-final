@@ -54,18 +54,7 @@ Tests output:
 - Performance measurements
 - Memory usage statistics
 
-## Setup Instructions
 
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/rahulnair2003/cmsc818q.git
-   ```
-2. Install Go (version 1.18+ recommended).
-3. Install dependencies:
-   ```sh
-   cd promsketch
-   go mod download
-   ```
 4. **Manually add required data files:**
    - Download or copy the following files into the `promsketch/testdata/` directory:
      - `google-cluster-data-1.csv`
